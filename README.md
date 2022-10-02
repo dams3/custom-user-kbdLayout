@@ -1,4 +1,4 @@
-Here is my solution to changing the keyboard layout (via xkb configuration) on the fly when you don't have root privileges.
+Here is my solution to changing the keyboard layout (via xkb configuration) when you don't have root privileges.
 
 Take note that you won't be able to apply your keyboard layout before you log in.
 Also this method won't work properly if you're using wayland (For example switch from GNOME which uses wayland to GNOME-Xorg).
@@ -11,12 +11,16 @@ This configuration works on Debian 11 with GNOME_Xorg
 To install :
 
 run `git clone https://github.com/dams3/custom-user-kbdLayout.git`
-then copy keyboard folder into your directory
+
+then copy the folder 'keyboard' into your home directory (`cp -r ./keyboard $HOME`)
+
 make sure the kbdlayout.sh can be executed (use chmod if not)
+
 copy the file 'customKbdLayout.desktop' into your ~/.config/autostart/
+
 modify the layout as you please
 
-Your done. To test the layout right now run the shell script : `~/keyboard/kbdlayout.sh`
+Your done. To test the layout right now run the shell script : `bash ~/keyboard/kbdlayout.sh`
 
 # My layout
 
