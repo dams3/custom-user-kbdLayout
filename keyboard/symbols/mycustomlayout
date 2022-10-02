@@ -1,0 +1,63 @@
+partial alphanumeric_keys
+xkb_symbols "mysymbols" {
+
+    name[Group1]= "customLayoutGroupName";
+
+    // First row
+    key <TLDE> {	[]	};
+    key <AE01> {	[ dead_diaeresis,	dead_tilde 	]	};
+    key <AE02> {	[ dead_acute	]	};
+    key <AE03> {	[ dead_grave	]	};
+    key <AE04> {	[ dead_circumflex,	EuroSign	]	};
+    key <AE05> {	[]	};
+    key <AE06> {	[]	};
+    key <AE07> {	[]	};
+    key <AE08> {	[]	};
+    key <AE09> {	[	7	]	};
+    key <AE10> {	[	8	]	};
+    key <AE11> {	[	9	]	};
+    key <AE12> {	[]	};
+
+    // Second row
+    key <AD01> {	[ apostrophe,	quotedbl,	grave	]	};
+    key <AD02> {	[ comma,	less			]	};
+    key <AD03> {	[ period,	greater,	egrave	]	};
+    key <AD04> {	[	  p,	P, slash, ampersand	]	};
+    key <AD05> {	[	  y,	Y, backslash,	bar	]	};
+    key <AD06> {	[	  f,	F, bracketleft	]	};
+    key <AD07> {	[	  g,	G, bracketright	]	};
+    key <AD08> {	[	  c,	C, ccedilla	]	};
+    key <AD09> {	[	  r,	R,	4	]	};
+    key <AD10> {	[	  l,	L,	5	]	};
+    key <AD11> {	[ 	  6,	6,	6	]	};
+    key <AD12> {	[]	};
+
+    // Third row
+    key <AC01> {	[	  a,	A,	agrave,	Agrave	]	};
+    key <AC02> {	[	  o,	O,	ocircumflex	]	};
+    key <AC03> {	[	  e,	E,	eacute		]	};
+    key <AC04> {	[	  u,	U,	ugrave		]	};
+    key <AC05> {	[	  i,	I,	idiaeresis	]	};
+    key <AC06> {	[	  d,	D,	parenleft,	braceleft	]	};
+    key <AC07> {	[	  h,	H,	parenright,	braceright	]	};
+    key <AC08> {	[	  t,	T,	0		]	};
+    key <AC09> {	[	  n,	N,	1		]	};
+    key <AC10> {	[	  s,	S,	2		]	};
+    key <AC11> {	[	minus,	underscore,	3	]	};
+
+    // Fourth row
+    key <AB01> {	[ semicolon, colon, exclam	]	};
+    key <AB02> {	[	  q,	Q,	at	]	};
+    key <AB03> {	[	  j,	J, numbersign	]	};
+    key <AB04> {	[	  k,	K, dollar	]	};
+    key <AB05> {	[	  x,	X, asciitilde	]	};
+    key <AB06> {	[	  b,	B, percent	]	};
+    key <AB07> {	[	  m,	M, asterisk	]	};
+    key <AB08> {	[	  w,	W, asciicircum	]	};
+    key <AB09> {	[	  v,	V, question	]	};
+    key <AB10> {	[	  z,	Z, plus, equal	]	};
+
+    key <BKSL> {	[]	};
+    
+    include "level3(alt_switch)"
+};

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=customKbdLayout
+Exec=/home/dams/keyboard/kbdlayout.sh
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
