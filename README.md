@@ -16,9 +16,9 @@ then copy the folder 'keyboard' into your home directory (`cp -r ./keyboard $HOM
 
 make sure the kbdlayout.sh can be executed (use chmod if not)
 
-copy the file 'customKbdLayout.desktop' into your ~/.config/autostart/
+copy the file 'customKbdLayout.desktop' into your '~/.config/autostart/', modify the 'Exec' path from '/home/dams/' to your home directory and delete the 'X-GNOME-Autostart-enabled=true' if your not using GNOME
 
-modify the layout as you please
+modify the layout as you please (the 'mycustomlayout' file in '~/keyboard/symbols/)
 
 Your done. To test the layout right now run the shell script : `bash ~/keyboard/kbdlayout.sh`
 
@@ -27,7 +27,7 @@ Your done. To test the layout right now run the shell script : `bash ~/keyboard/
 I use my own layout based on dvorak, which I've adapted to be able to also write in French.
 I've also adapted it to my programming needs.
 
-Here is the layout :
+Here is my layout :
 
 <p align="center">
   <figure>
