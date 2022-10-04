@@ -18,7 +18,7 @@ make sure the kbdlayout.sh can be executed (use chmod if not)
 
 copy the file 'customKbdLayout.desktop' into your '~/.config/autostart/', modify the 'Exec' path from '/home/dams/' to your home directory and delete the 'X-GNOME-Autostart-enabled=true' if your not using GNOME
 
-modify the layout as you please (the 'mycustomlayout' file in '~/keyboard/symbols/)
+modify the layout as you please (the 'mycustomlayout' file in '~/keyboard/symbols/', you can also find other layouts currently on your machine in '/usr/share/X11/xkb/symbols/')
 
 Your done. To test the layout right now run the shell script : `bash ~/keyboard/kbdlayout.sh`
 
