@@ -37,7 +37,7 @@ xkb_symbols "mysymbols" {
     key <AC02> {	[	  o,	O,	ocircumflex	]	};
     key <AC03> {	[	  e,	E,	eacute		]	};
     key <AC04> {	[	  u,	U,	ugrave		]	};
-    key <AC05> {	[	  i,	I,	idiaeresis	]	};
+    key <AC05> {	[	  i,	I,	icircumflex	]	};
     key <AC06> {	[	  d,	D,	parenleft,	braceleft	]	};
     key <AC07> {	[	  h,	H,	parenright,	braceright	]	};
     key <AC08> {	[	  t,	T,	0		]	};
