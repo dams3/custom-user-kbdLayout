@@ -16,6 +16,8 @@ then copy the folder 'keyboard' into your home directory (`cp -r ./keyboard $HOM
 
 make sure the kbdlayout.sh can be executed (use chmod if not)
 
+Modify the shell script to your liking (for example you can take out the option "caps:shiftlock"
+
 copy the file 'customKbdLayout.desktop' into your '~/.config/autostart/', modify the 'Exec' path from '/home/dams/' to your home directory and delete the 'X-GNOME-Autostart-enabled=true' if your not using GNOME
 
 modify the layout as you please (the 'mycustomlayout' file in '~/keyboard/symbols/', you can also find other layouts currently on your machine in '/usr/share/X11/xkb/symbols/')

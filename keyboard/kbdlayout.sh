@@ -1,3 +1,3 @@
 #!/bin/bash
 
-setxkbmap -option "" mycustomlayout mysymbols -print | xkbcomp -I"$HOME"/keyboard/ - $DISPLAY
+setxkbmap -option "caps:shiftlock" mycustomlayout mysymbols -print | xkbcomp -I"$HOME"/keyboard/ - $DISPLAY
