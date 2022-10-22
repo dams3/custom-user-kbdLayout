@@ -5,45 +5,45 @@ xkb_symbols "mysymbols" {
 
     // First row
     key <TLDE> {	[]	};
-    key <AE01> {	[ dead_diaeresis,	dead_tilde 	]	};
-    key <AE02> {	[ dead_acute	]	};
-    key <AE03> {	[ dead_grave	]	};
-    key <AE04> {	[ dead_circumflex,	EuroSign	]	};
-    key <AE05> {	[]	};
-    key <AE06> {	[]	};
-    key <AE07> {	[]	};
-    key <AE08> {	[]	};
-    key <AE09> {	[	7	]	};
-    key <AE10> {	[	8	]	};
-    key <AE11> {	[	9	]	};
+    key <AE01> {	[ exclam,	dead_tilde 	]	};
+    key <AE02> {	[ slash,	5,	ampersand	]	};
+    key <AE03> {	[ backslash,	6,	bar	]	};
+    key <AE04> {	[ bracketleft,	7,	EuroSign	]	};
+    key <AE05> {	[ bracketright, 8	]	};
+    key <AE06> {	[ question, 9	]	};
+    key <AE07> {	[ parenleft, 0	]	};
+    key <AE08> {	[ parenright, 1	]	};
+    key <AE09> {	[ braceleft, 2	]	};
+    key <AE10> {	[ braceright, 3	]	};
+    key <AE11> {	[	4, 4	]	};
     key <AE12> {	[]	};
 
     // Second row
-    key <AD01> {	[ apostrophe,	quotedbl,	grave	]	};
-    key <AD02> {	[ comma,	less			]	};
-    key <AD03> {	[ period,	greater,	egrave	]	};
-    key <AD04> {	[	  p,	P, slash, ampersand	]	};
-    key <AD05> {	[	  y,	Y, backslash,	bar	]	};
-    key <AD06> {	[	  f,	F, bracketleft	]	};
-    key <AD07> {	[	  g,	G, bracketright	]	};
+    key <AD01> {	[ apostrophe,	quotedbl,	dead_diaeresis,	dead_tilde	]	};
+    key <AD02> {	[ comma,	less,	dead_grave,	dead_acute	]	};
+    key <AD03> {	[ period,	greater,	egrave, dead_circumflex	]	};
+    key <AD04> {	[	  p,	P	]	};
+    key <AD05> {	[	  y,	Y	]	};
+    key <AD06> {	[	  f,	F	]	};
+    key <AD07> {	[	  g,	G	]	};
     key <AD08> {	[	  c,	C, ccedilla	]	};
-    key <AD09> {	[	  r,	R,	4	]	};
-    key <AD10> {	[	  l,	L,	5	]	};
-    key <AD11> {	[ 	  6,	6,	6	]	};
-    key <AD12> {	[]	};
+    key <AD09> {	[	  r,	R	]	};
+    key <AD10> {	[	  l,	L	]	};
+    key <AD11> {	[ 	  plus,	equal	]	};
+    key <AD12> {	[	asterisk, asciicircum]	};
 
     // Third row
     key <AC01> {	[	  a,	A,	agrave,	Agrave	]	};
     key <AC02> {	[	  o,	O,	ocircumflex	]	};
-    key <AC03> {	[	  e,	E,	eacute		]	};
+    key <AC03> {	[	  e,	E,	eacute, Eacute		]	};
     key <AC04> {	[	  u,	U,	ugrave		]	};
     key <AC05> {	[	  i,	I,	icircumflex	]	};
-    key <AC06> {	[	  d,	D,	parenleft,	braceleft	]	};
-    key <AC07> {	[	  h,	H,	parenright,	braceright	]	};
-    key <AC08> {	[	  t,	T,	0		]	};
-    key <AC09> {	[	  n,	N,	1		]	};
-    key <AC10> {	[	  s,	S,	2		]	};
-    key <AC11> {	[	minus,	underscore,	3	]	};
+    key <AC06> {	[	  d,	D	]	};
+    key <AC07> {	[	  h,	H	]	};
+    key <AC08> {	[	  t,	T	]	};
+    key <AC09> {	[	  n,	N	]	};
+    key <AC10> {	[	  s,	S	]	};
+    key <AC11> {	[	minus,	underscore	]	};
 
     // Fourth row
     key <AB01> {	[ semicolon, colon, exclam	]	};
@@ -52,10 +52,10 @@ xkb_symbols "mysymbols" {
     key <AB04> {	[	  k,	K, dollar	]	};
     key <AB05> {	[	  x,	X, asciitilde	]	};
     key <AB06> {	[	  b,	B, percent	]	};
-    key <AB07> {	[	  m,	M, asterisk	]	};
-    key <AB08> {	[	  w,	W, asciicircum	]	};
-    key <AB09> {	[	  v,	V, question	]	};
-    key <AB10> {	[	  z,	Z, plus, equal	]	};
+    key <AB07> {	[	  m,	M	]	};
+    key <AB08> {	[	  w,	W	]	};
+    key <AB09> {	[	  v,	V	]	};
+    key <AB10> {	[	  z,	Z	]	};
 
     key <BKSL> {	[]	};
     
